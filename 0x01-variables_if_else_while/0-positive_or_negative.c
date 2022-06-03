@@ -8,11 +8,13 @@
  *
  */
 
-/* a local variable difination*/
+/* betty style doc for function main goes there */
 int main(void)
 
 {
-	int n = 100;
+	int n;
+
+	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
