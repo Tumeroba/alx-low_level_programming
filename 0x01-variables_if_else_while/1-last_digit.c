@@ -27,7 +27,7 @@ int main(void)
 	} if(n == 0)
        	{
 		printf(" is and is zero"); 
-	} if(n < 6 & (n!=0)) {
+	} if(n < 6 && (n!=0)) {
 		printf(" is and is less than 6 and not 0\n"); }
 
 	return (0);
